@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    font: 16px/1.2 'Josefin Sans', sans-serif;
+    letter-spacing: 1.3px;
+}
+.container {
+    background-color: #f5f5f5;
+    width: 25%;
+    margin: 12% auto;
+    clear: both;
+    height: 60vh;
+    
+}
+
+.container h2 {
+    text-align: center;;
+    padding: 10px 0 20px 0;
+}
+
+.container .btn {
+    width: 90%;
+    padding: 20px 0 20px 0;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.container .facbook {
+    background-color: mediumblue;
+}
+
+
+.container .google {
+    background-color: firebrick;
+}
+
+.container .twitter { 
+    background-color: steelblue;
+
+}
+
+.container .skip {
+    background-color: dimgray;
+}
